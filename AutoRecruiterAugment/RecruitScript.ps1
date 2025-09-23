@@ -16,7 +16,8 @@ while($true)
     $objNotifyIcon.Visible = $True
 
     $objNotifyIcon.ShowBalloonTip(10000)
-    python C:\Users\mcand\PycharmProjects\PythonProject\ptar.py $counter
+    python ptar.py $counter
 
     Start-Sleep 180 # Sends a reminder every 3 minutes.
+
 }
